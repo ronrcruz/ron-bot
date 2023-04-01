@@ -63,10 +63,10 @@ def text_to_audio(text):
 
 ## Draw streamlit ui with buttons and text box for user input
 
-st.title("Joshua Santana Simulator")
-st.write("Speak to the one and only Joshua Santana! Sounds just like him! Be amazed as he talks! Can answer any question the real one can!")
+st.title("Ron Bot")
+st.write("Speak to the one and only Ron Cruz! Sounds just like him! Be amazed as he talks! Can answer any question the real one can!")
 
-user_input = st.text_input("What do you wanna say to Josh?:")
+user_input = st.text_input("What do you wanna say to Ron?:")
 
 if st.button("Send"):
     if user_input:
