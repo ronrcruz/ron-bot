@@ -4,12 +4,12 @@ import base64
 from io import BytesIO
 
 # Replace YOUR_API_KEY with your ElevenLabs API key
-API_KEY = "009941c6f99a81ce87901676d10a7e57"
+API_KEY = st.secrets["API_KEY"]
 BASE_URL = "https://api.elevenlabs.io/v1/text-to-speech/"
 VOICE_ID = "d1jcJCpiPrLQipKcTcke"  # Replace with a valid voice ID from ElevenLabs
 
 # Replace YOUR_CHATGPT_API_KEY with your ChatGPT API key
-CHATGPT_API_KEY = "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"
+CHATGPT_API_KEY = st.secrets["CHATGPT_API_KEY"]
 CHATGPT_URL = "https://api.openai.com/v1/chat/completions"
 
 headers = {
