@@ -17,6 +17,8 @@ headers = {
     "Authorization": f"Bearer {CHATGPT_API_KEY}"
 }
 
+## Generating a chatgpt response from user input
+
 def generate_response(prompt):
     data = {
         "model": "gpt-3.5-turbo",
